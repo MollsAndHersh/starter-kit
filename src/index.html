@@ -77,6 +77,8 @@
 
             <!-- Your slides will be injected at build time, use markdown -->
 
+            <a href="#" onclick="openMenu(event)" slot="actions" style="color: inherit;"><ion-icon name="more"></ion-icon></a>
+
         </deckgo-deck>
 
         <deckgo-remote></deckgo-remote>
@@ -94,11 +96,9 @@
             <ion-fab-button color="primary" onclick="previousSlide()"><ion-icon name="arrow-back"></ion-icon></ion-fab-button>
         </ion-fab-list>
         <ion-fab-list side="top">
-            <ion-fab-button color="primary" onclick="presentAlert()"><ion-icon name="help"></ion-icon></ion-fab-button>
             <ion-fab-button id="buttonSlideNotes" color="primary" onclick="displaySlideNotes()"><ion-icon name="clipboard"></ion-icon></ion-fab-button>
             <ion-fab-button class="hide-on-mobile" color="primary" onclick="doPrint()"><ion-icon name="print"></ion-icon></ion-fab-button>
             <ion-fab-button color="primary" onclick="reconnectRemoteControl()"><ion-icon name="link"></ion-icon></ion-fab-button>
-            <ion-fab-button color="primary" onclick="window.open('https://github.com/deckgo/deckdeckgo', '_blank');"><ion-icon name="logo-github"></ion-icon></ion-fab-button>
         </ion-fab-list>
     </ion-fab>
 
@@ -106,6 +106,14 @@
     <ion-popover-controller></ion-popover-controller>
     <ion-modal-controller></ion-modal-controller>
     <ion-alert-controller></ion-alert-controller>
+
+    <web-social-share show="false" style="--web-social-share-backdrop-opacity: 0.5;">
+        <ion-icon name="logo-twitter" slot="twitter" style="color: #00aced; width: 1.4rem; height: 1.4rem;"></ion-icon>
+        <ion-icon name="logo-reddit" slot="reddit" style="width: 1.4rem; height: 1.4rem;"></ion-icon>
+        <ion-icon name="logo-linkedin" slot="linkedin" style="color: #0077b5; width: 1.4rem; height: 1.4rem;"></ion-icon>
+        <ion-icon name="mail" slot="email" style="color: #ff8ea3; width: 1.4rem; height: 1.4rem;"></ion-icon>
+        <ion-icon name="logo-whatsapp" slot="whatsapp" style="color: #25D366; width: 1.4rem; height: 1.4rem;"></ion-icon>
+    </web-social-share>
 </ion-app>
 
 <noscript>
