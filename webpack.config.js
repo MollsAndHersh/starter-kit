@@ -59,7 +59,7 @@ module.exports = (env, argv) => {
 
     if (argv.mode === 'production') {
         plugins.push(new GenerateSW({
-            ignoreUrlParametersMatching: [/./]
+            ignoreURLParametersMatching: [/./]
         }));
         plugins.push(new DeckDeckGoInfoPlugin());
 
