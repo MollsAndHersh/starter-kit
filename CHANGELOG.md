@@ -1,5 +1,17 @@
+<a name="1.0.0-beta.19"></a>
+# [1.0.0-beta.19](https://github.com/deckgo/deckdeckgo-starter/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2019-03-31)
+
+### Features
+
+* update the libs, notably all DeckDeckGo libs improvements linked with the development of our upcoming editor for presentations
+
+### Fix
+
+* fix a couple of issues on Windows ([#39](https://github.com/deckgo/deckdeckgo-starter/issues/39))
+* improve deployment of the PWAs on a subpaths ([#22](https://github.com/deckgo/deckdeckgo-starter/issues/22)) 
+
 <a name="1.0.0-beta.18"></a>
-# [1.0.0-beta.18](https://github.com/fluster/deckdeckgo-starter/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2019-03-31)
+# [1.0.0-beta.18](https://github.com/deckgo/deckdeckgo-starter/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2019-03-31)
 
 ### Features
 
@@ -7,7 +19,7 @@
 * don't open automatically the browser on start ([#35](https://github.com/deckgo/deckdeckgo-starter/issues/35))
 
 <a name="1.0.0-beta.17"></a>
-# [1.0.0-beta.17](https://github.com/fluster/deckdeckgo-starter/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2019-02-17)
+# [1.0.0-beta.17](https://github.com/deckgo/deckdeckgo-starter/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2019-02-17)
 
 ### Features
 
@@ -20,14 +32,14 @@
 * jump to slide only list slides ([8ccded3](https://github.com/deckgo/deckdeckgo-starter/commit/8ccded373641d139c0fd4f99e2c19a6d782e3c91))
 
 <a name="1.0.0-beta.16"></a>
-# [1.0.0-beta.16](https://github.com/fluster/deckdeckgo-starter/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2019-02-14)
+# [1.0.0-beta.16](https://github.com/deckgo/deckdeckgo-starter/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2019-02-14)
 
 ### Features
 
 * update information following the release of the DeckDeckGo documentation
 
 <a name="1.0.0-beta.15"></a>
-# [1.0.0-beta.15](https://github.com/fluster/deckdeckgo-starter/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2019-02-03)
+# [1.0.0-beta.15](https://github.com/deckgo/deckdeckgo-starter/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2019-02-03)
 
 ### Features
 
@@ -42,14 +54,14 @@ If you wish to upgrade your presentation, you could proceed as the following res
 - RTL: upgrade libs and other files as in ([e442cb5](https://github.com/deckgo/deckdeckgo-website/commit/e442cb575ced2d53c791b3e8bafddcabf54fb8d5))
 
 <a name="1.0.0-beta.14"></a>
-# [1.0.0-beta.14](https://github.com/fluster/deckdeckgo-starter/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2019-01-27)
+# [1.0.0-beta.14](https://github.com/deckgo/deckdeckgo-starter/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2019-01-27)
 
 ### Features
 
 * command slide animation (= reveal object) from the remote control too ([f17107d](https://github.com/deckgo/deckdeckgo-starter/commit/f17107de2fd69f716e7fec8abe945100b07b6034))
 
 <a name="1.0.0-beta.13"></a>
-# [1.0.0-beta.13](https://github.com/fluster/deckdeckgo-starter/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2019-01-15)
+# [1.0.0-beta.13](https://github.com/deckgo/deckdeckgo-starter/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2019-01-15)
 
 ### Features
 
