@@ -84,10 +84,25 @@
     </ion-content>
 
     <ion-fab vertical="bottom" horizontal="end" slot="fixed" id="navigation">
-        <ion-fab-button color="primary" size="small" onclick="previousSlide()"><ion-icon name="arrow-back" ariaLabel="Previous slide" style="font-size: 1.4em;"></ion-icon></ion-fab-button>
-        <ion-fab-button color="primary" size="small" onclick="nextSlide()"><ion-icon name="arrow-forward" ariaLabel="Next slide" style="font-size: 1.4em;"></ion-icon></ion-fab-button>
-        <ion-fab-button color="primary" size="small" onclick="presentSlidePicker()"><ion-icon name="list" md="md-list" ios="md-list" ariaLabel="Jump to a particular slide" style="font-size: 1.4em;"></ion-icon></ion-fab-button>
-        <ion-fab-button class="hide-on-mobile" color="primary" size="small" onclick="toggleFullScreen()"><ion-icon name="expand" ariaLabel="Full screen" style="font-size: 1.4em;"></ion-icon></ion-fab-button>
+        <button onclick="previousSlide()" class="navigation ion-activatable">
+            <ion-ripple-effect></ion-ripple-effect>
+            <ion-icon name="arrow-back" ariaLabel="Previous slide" style="font-size: 1.4em;"></ion-icon>
+        </button>
+
+        <button onclick="nextSlide()" class="navigation ion-activatable">
+            <ion-ripple-effect></ion-ripple-effect>
+            <ion-icon name="arrow-forward" ariaLabel="Next slide" style="font-size: 1.4em;"></ion-icon>
+        </button>
+
+        <button onclick="presentSlidePicker()" class="navigation ion-activatable">
+            <ion-ripple-effect></ion-ripple-effect>
+            <ion-icon name="list" md="md-list" ios="md-list" ariaLabel="Jump to a particular slide" style="font-size: 1.4em;"></ion-icon>
+        </button>
+
+        <button onclick="toggleFullScreen()" class="navigation ion-activatable hide-on-mobile">
+            <ion-ripple-effect></ion-ripple-effect>
+            <ion-icon name="expand" ariaLabel="Full screen" style="font-size: 1.4em;"></ion-icon>
+        </button>
     </ion-fab>
 
     <!-- Ionic components anchors -->
